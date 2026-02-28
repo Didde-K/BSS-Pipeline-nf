@@ -1,0 +1,17 @@
+{
+  "input": "/home/guest/nextflow/fastq",
+  "outdir": "/home/guest/nextflow/output",
+  "genome": "/home/guest/nextflow/genome",
+  "adapters": "/opt/Trimmomatic-0.39/adapters/adapter.fa",
+  "threads": 2,
+  "phred": 33,
+  "leading": 3,
+  "trailing": 3,
+  "slidingwindow": [4, 15],
+  "minlen": 35,
+  "adapters_params": [2, 30, 10],
+  "seedmss": 1,
+  "seedlen": 20,
+  "intercept_slope": [0, -0.2],
+  "mapq": 20
+}
