@@ -14,7 +14,7 @@ Before running the pipeline, a few input parameters must be specified.
 These parameters should be updated in the JSON configuration file according to the user's environment:
 - Input: Path to the folder containing only raw .fastq.gz files.
 - Outdir: Path to the directory where output files will be written.
-- Genome: Path to the folder containing the Bismark genome index (this folder should include the Bisulfite_Genome directory and the reference .fa file(s) as created by `bismark_genome_preparation`).
+- Genome: Path to the folder containing the Bismark genome index (this folder should include the Bisulfite_Genome directory and the reference .fa file(s) (as created by `bismark_genome_preparation`).
 - Adapters: Path to the file containing adapter sequences to be trimmed from the reads.
 
 **Optional Settings**
