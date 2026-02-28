@@ -45,6 +45,7 @@ This pipeline uses Docker containers that include specific versions of the tools
 - Trimmomatic v0.38
 - Bismark v0.25.1
 - Samtools v1.23
+
 The pipeline itself was developed and tested with:
 - Nextflow v25.10.2
 - Docker v29.2.1
