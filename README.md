@@ -10,7 +10,7 @@ The pipeline runs in Docker containers, requiring only Nextflow and Docker to be
 # ▶️ Running the script
 Before running the pipeline, a few input parameters must be specified.
 
-**User-specific parameters**
+**User-specific parameters**  
 These parameters should be updated in the JSON configuration file according to the user's environment:
 - Input: Path to the folder containing only raw .fastq.gz files.
 - Outdir: Path to the directory where output files will be written.
@@ -30,7 +30,7 @@ These parameters should be updated in the JSON configuration file according to t
 - Intercept_slope: Intercept and slope for the Bowtie minimum score function [intercept, slope].
 - Mapq: Minimum MAPQ to retain after Samtools filtering.
 
-**Running the script**
+**Running the script**  
 To run the pipeline in Bash:
 1. Make sure the .json and .config files are in the same directory as the .nf file.
 2. There are separate Nextflow scripts for single-end (SE) and paired-end (PE) data — use the appropriate one.
@@ -44,7 +44,7 @@ This pipeline uses Docker containers that include specific versions of the tools
 - MultiQC v1.33
 - Trimmomatic v0.38
 - Bismark v0.25.1
-- Samtools v1.23
+- Samtools v1.23  
 The pipeline itself was developed and tested with:
 - Nextflow v25.10.2
 - Docker v29.2.1
